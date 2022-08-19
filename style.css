@@ -61,9 +61,70 @@ main{
 
 .textito{
     margin-top: 2rem;
+    font-size: 1.2rem;
 }
 
 a{
     text-decoration: none;
     color: rgb(105, 123, 201);
 }
+
+.text-chico{
+    font-size: 12px;
+}
+
+@media (max-width: 920px) {
+    .text-second{
+        font-size: 1rem;
+        color: rgb(29, 28, 28);
+    }
+    
+    .detail-text{
+        font-weight: 600;
+    }
+    
+    .init-call{
+        height: 100vh;
+        max-width: 100%; 
+    }
+
+    main{
+        padding-top: 1rem;
+    }
+    
+    .text-tri{
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+    
+    }
+
+    @media (max-width: 500px) {
+        .text-second{
+            font-size: 14pxrem;
+            color: rgb(29, 28, 28);
+        }
+        
+        .detail-text{
+            font-weight: 600;
+        }
+        
+        .init-call{
+            height: 100vh;
+            max-width: 100%; 
+        }
+    
+        main{
+            padding-top: 1rem;
+        }
+        
+        .text-tri{
+            margin-top: 2rem;
+            font-size: 13px;
+        }
+
+        .textito{
+            font-size: 10px;
+        }
+        
+        }
